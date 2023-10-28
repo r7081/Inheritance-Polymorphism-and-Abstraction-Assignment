@@ -1,0 +1,63 @@
+﻿1. What is Inheritance in Java?
+Ans :  The technique of creating a new class by using an existing class functionality is called inheritance in Java. In other words, inheritance is a process where a child class acquires all the properties and behaviours of the parent class.
+2. What is superclass and subclass??
+Ans: A class from where a subclass inherits features is called superclass. It is also called base class or parent class. A class that inherits all the members (fields, method, and nested classes) from another class is called a subclass. It is also called a derived class, child class, or extended class.
+3. How is Inheritance implemented/achieved in Java?
+Ans: Inheritance can be implemented or achieved by using two keywords: extends: extends is a keyword that is used for developing the inheritance between two classes and two interfaces. implements: implements keyword is used for developing the inheritance between a class and interface.
+4. What is polymorphism?
+Ans: Polymorphism in OOP is the ability of an entity to take several forms. In other words, it refers to the ability of an object (or a reference to an object) to take different forms of objects. It allows a common data-gathering message to be sent to each class. Polymorphism encourages what is called ‘extendibility’ which means an object or a class can have its uses extended.
+5. Differentiate between method overloading and method overriding.
+Ans :     OVERRIDING                                                            OVERLOADING
+  Implements “runtime polymorphism”.                        Implements “compile time polymorphism”.
+
+
+The method call is determined at run                          The method call is determined at 
+time based on object type.                                                   Compile time.
+
+
+Occurs between super class  sub class.                      Occurs between the methods in the same 
+                                                                                                       Class.
+
+
+On error,the effect will be visible at run time.                On error,it can be caught at compile time.
+
+
+6. What is an abstraction explained with an Example?
+Ans: Abstraction is nothing but the quality of dealing with ideas rather than events. It basically deals with hiding the internal details and showing the essential things to the user. Abstract class Sports {   // abstract class sports Abstract void jump();    // abstract method }
+7. What is the difference between an abstract method and final method in Java?Explain with an example ?
+Ans: The abstract method is incomplete while the final method is regarded as complete. The only way to use an abstract method is by overriding it, but you cannot override a final method in Java.
+8. What is the final class in Java?
+Ans: A class declared with the final keyword is known as the final class. A final class can’t be inherited by subclasses. By using the final class, we can restrict the inheritance of the class. We can create a class as a final class only if it is complete in nature, which means it must not be an abstract class. In java, all the wrapper classes are final classes like String, Integer, etc. If we try to inherit a final class, then the compiler throws an error at compilation time. We can’t create a class as immutable without the final class.
+
+
+9. Differentiate between abstraction and encapsulation.
+Ans :    ABSTRACTION                                                     ENCAPSULATION
+  Abstraction is a features of OOPs that                Encapsulation is also a feature of OOPs.It 
+Hides the unnecessary detail but show                 hides the code & data into a single entity.
+ the essential information.
+
+
+It solves an issue at design level.                        It solves an issue at implementation level.
+
+
+It focuses on external look out.                             It focuses on internal working.
+
+
+It is the process of gaining information.                    It is the process of contationing the
+                                                                                         Information.
+
+
+10. Difference between Runtime and compile time polymorphism explain with an example ??
+Ans : Compile time polymorphism                                      Runtime polymorphism
+Compile time polymorphism is less flexible                   Run time polymorphism is more flexible 
+As all things execute during compile time.                     As all the things are execute at run time.
+
+
+In compile time polymorphism the call is                   In run time polymorphism the call is not Resolved by the compiler.                                             resolved by the compiler.
+
+
+Inheritance is not involved.                                                    Inheritance is involved.
+
+
+It is also known as static binding,early                             It is also known as dynamic binding,late 
+ Binding & overloading as well.                                   binding,overri
